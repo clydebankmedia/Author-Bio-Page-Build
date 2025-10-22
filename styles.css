@@ -1,0 +1,110 @@
+/* ===== TRAINING NOTES =====
+   This CSS includes:
+   - A minimal base stylesheet for common elements
+   - No advanced selectors — only elements, classes, and IDs
+   Your HTML will "turn on" these styles by adding the right classes.
+*/
+
+/* ===== Base Reset & Typography ===== */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+a {
+    color: #0055aa;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Layout Helpers ===== */
+.page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* ===== Header ===== */
+.site-header {
+    background-color: #0055aa;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* ===== Bio Section ===== */
+.bio {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.bio img {
+    max-width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 1rem;
+}
+
+/* ===== Posts Section ===== */
+.posts {
+    display: grid;
+    gap: 1rem;
+}
+
+.post-card {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+/* ===== Contact Area ===== */
+.contact {
+    background-color: white;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 6px;
+    text-align: center;
+}
+
+/* ===== Button Link ===== */
+.button {
+    display: inline-block;
+    background-color: #0055aa;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #003f7f;
+}
+
+/* ===== Featured Base Styles  ===== */
+.featured {
+    padding: 2rem 1rem 3rem 1rem;
+    margin: 2rem 0 4rem 0;
+    background: rgba(255, 180, 0, .1)
+}
