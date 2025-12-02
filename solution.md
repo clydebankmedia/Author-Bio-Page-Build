@@ -1,4 +1,4 @@
-# Solution Code - Styling Practice with Mockup
+# Solution Code
 
 <details>
 <summary> Step 1 Solution - Add Semantic Structure</summary>
